@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {        
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["dom", "es2015.promise", "es5"],
+        "jsx": "react",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "noEmitHelpers": false
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "__build__",
+        "coverage"
+    ]
+}
